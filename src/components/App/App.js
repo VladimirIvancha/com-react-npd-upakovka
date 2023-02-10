@@ -9,7 +9,6 @@ import NoMatch from "../NoMatch/NoMatch";
 function App() {
   return (
     <div className="App">
-      <h1 className="display-1 text-center">NPD-упаковка</h1>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
