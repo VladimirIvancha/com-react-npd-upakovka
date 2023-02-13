@@ -21,7 +21,7 @@ function About() {
             <div className="text-start col-12 fs-5 my-5">{aboutIntroText}</div>
           </div>
           <div className="row">
-            <div className="col-12 text-center">
+            <div className="col-12 text-center mt-5">
               <div className="fs-2 fw-bold">Наши приоритетные направления</div>
             </div>
           </div>
@@ -89,7 +89,7 @@ function About() {
                 <div className="fs-2 fw-bold">Портфолио</div>
               </div>
             </div>
-            <div className="row">
+            <div className="row my-5">
               <AboutPortfolioSwiper />
             </div>
           </div>
