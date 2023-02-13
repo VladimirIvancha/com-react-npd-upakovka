@@ -4,6 +4,7 @@ import TabPaneItem from "./TabPaneItem/TabPaneItem";
 import photo1 from "../../assets/images/alco_2-min.webp";
 import photo2 from "../../assets/images/Babaevskiy_packaging-min.webp";
 import photo3 from "../../assets/images/DesignDepot_2_calendar.webp";
+import AboutPortfolioSwiper from "./AboutPortfolioSwiper/AboutPortfolioSwiper";
 
 function About() {
   return (
@@ -296,69 +297,8 @@ function About() {
                 <div className="fs-2 fw-bold">Портфолио</div>
               </div>
             </div>
-            <div className="col-12 col-md-9 col-lg-6 mx-auto">
-              <div
-                id="carouselExampleIndicators"
-                className="carousel slide my-4"
-              >
-                <div className="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    className="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <img src={photo1} className="d-block w-100" alt="Фото1" />
-                  </div>
-                  <div className="carousel-item">
-                    <img src={photo2} className="d-block w-100" alt="Фото2" />
-                  </div>
-                  <div className="carousel-item">
-                    <img src={photo3} className="d-block w-100" alt="Фото3" />
-                  </div>
-                </div>
-                <button
-                  className="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    className="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span className="visually-hidden">Previous</span>
-                </button>
-                <button
-                  className="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="next"
-                >
-                  <span
-                    className="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span className="visually-hidden">Next</span>
-                </button>
-              </div>
+            <div className="row">
+              <AboutPortfolioSwiper />
             </div>
           </div>
         </div>

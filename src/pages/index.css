@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -31,6 +32,182 @@ code {
 .layout__hr {
   margin: 0;
   padding: 0;
+}
+
+/* Google Fonts - Poppins */
+.portfolioSliderCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolioSliderCards * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.portfolioSliderCards .slide-container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.portfolioSliderCards .slide-content {
+  margin: 0 20px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.portfolioSliderCards .card {
+  border-radius: 25px;
+  background-color: #fff;
+}
+.portfolioSliderCards .image-content,
+.portfolioSliderCards .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.portfolioSliderCards .image-content {
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.portfolioSliderCards .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4070f4;
+  border-radius: 25px 25px 0 25px;
+}
+.portfolioSliderCards .overlay::before,
+.portfolioSliderCards .overlay::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4070f4;
+}
+.portfolioSliderCards .overlay::after {
+  border-radius: 0 25px 0 0;
+  background-color: #fff;
+}
+.portfolioSliderCards .card-image {
+  position: relative;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
+}
+.portfolioSliderCards .card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #4070f4;
+}
+.portfolioSliderCards .name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.portfolioSliderCards .description {
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.portfolioSliderCards .button {
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #4070f4;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.portfolioSliderCards .button:hover {
+  background: #265df2;
+}
+.portfolioSliderCards .swiper-navBtn {
+  color: #6e93f7;
+  transition: color 0.3s ease;
+}
+.portfolioSliderCards .swiper-navBtn:hover {
+  color: #4070f4;
+}
+.portfolioSliderCards .swiper-navBtn::before,
+.portfolioSliderCards .swiper-navBtn::after {
+  font-size: 35px;
+}
+.portfolioSliderCards .swiper-button-next {
+  min-width: 28px;
+  height: 21px;
+  border: none;
+  background-color: grey;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  cursor: pointer;
+  mask-image: url(../assets/images/blog-arrow-right.svg);
+  margin: 0 20px 0 0;
+}
+.portfolioSliderCards .swiper-button-prev {
+  min-width: 28px;
+  height: 21px;
+  border: none;
+  background-color: grey;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  cursor: pointer;
+  mask-image: url(../assets/images/blog-arrow-left.svg);
+  margin: 0 0 0 20px;
+}
+.portfolioSliderCards .swiper-pagination-bullet {
+  background-color: #6e93f7;
+  opacity: 1;
+}
+.portfolioSliderCards .swiper-pagination-bullet-active {
+  background-color: #4070f4;
+}
+
+@media screen and (max-width: 1400px) {
+  .portfolioSliderCards .card-image {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .portfolioSliderCards .card-image {
+    height: 220px;
+    width: 220px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolioSliderCards .slide-content {
+    margin: 0 10px;
+  }
+  .portfolioSliderCards .swiper-navBtn {
+    display: none;
+  }
+  .portfolioSliderCards .card-image {
+    height: 320px;
+    width: 320px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .portfolioSliderCards .card-image {
+    height: 220px;
+    width: 220px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
