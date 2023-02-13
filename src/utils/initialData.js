@@ -2,6 +2,59 @@ import photo1 from "../assets/images/alco_2-min.webp";
 import photo2 from "../assets/images/Babaevskiy_packaging-min.webp";
 import photo3 from "../assets/images/DesignDepot_2_calendar.webp";
 
+const aboutIntroText = "«NPD-упаковка» - крупная типография европейского уровня обслуживания и надежный партнер вашего бизнеса. Предоставляем каждому клиенту лучшие полиграфические решения, путем внедрения передовых технологий полиграфии и самых высоких стандартов качества. Мы типография полного производственного цикла. У нас лучшее специализированное программное обеспечение, современное высокотехнологичное оборудование. Наша типография является официальным партнером компаний КБА и Гейдельберг."
+
+const aboutDocsInitialData = [
+  {
+    id: "doc-01",
+    title: "Сертификат соответствия ISO 22000:2018",
+    link: "#",
+  },
+  {
+    id: "doc-02",
+    title:
+      "Декларация о соответствии требованиям технического регламента таможенного союза «О безопасности упаковки»",
+    link: "#",
+  },
+  {
+    id: "doc-03",
+    title: "Сертификат соответствия ISO 22000:2005",
+    link: "#",
+  },
+  {
+    id: "doc-04",
+    title: "Сертификат еще какой-то",
+    link: "#",
+  },
+];
+
+const aboutOurMachinesLinksInitialData = [
+  {
+    id: "mach-all",
+    name: "Все",
+    link: "#",
+    active: true,
+  },
+  {
+    id: "mach-before",
+    name: "Допечатное оборудование",
+    link: "#",
+    active: false,
+  },
+  {
+    id: "mach-print",
+    name: "Печатное оборудование",
+    link: "#",
+    active: false,
+  },
+  {
+    id: "mach-after",
+    name: "Послепечатное оборудование",
+    link: "#",
+    active: false,
+  },
+]
+
 const tabPaneInitialData = [
   {
     id: "tab-01",
@@ -68,4 +121,10 @@ const aboutPortfolioSwiperInitialData = [
   },
 ];
 
-export { aboutPortfolioSwiperInitialData, tabPaneInitialData };
+export {
+  aboutIntroText,
+  aboutPortfolioSwiperInitialData,
+  aboutOurMachinesLinksInitialData,
+  tabPaneInitialData,
+  aboutDocsInitialData,
+};
