@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import pic1 from '../../assets/images/pos1-min.webp'
+import pic2 from '../../assets/images/tea1-min.webp'
+import pic3 from '../../assets/images/uf1-min.webp'
+
+
 function Header() {
   return (
     <header className="header">
@@ -74,6 +79,91 @@ function Header() {
           </div>
         </div>
       </nav>
+      <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-ride="carousel">
+        <div className="carousel-inner">
+          <div className="carousel-item bg-warning header-carousel-item active">
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-12 d-lg-none">
+                  <div className="slide_header"></div>
+                </div>
+                <div className="col-sm-12 col-lg-6 order-2 order-lg-1">
+                  <div className="slide_title text-center text-lg-left">
+                    <a href="#">
+                      <span className="red">POS-</span>
+                      <span className="darks">материалы</span>
+                    </a>
+                  </div>
+                </div>
+                <div className="col-6 offset-3 offset-lg-0 col-lg-6 text-center order-1 order-lg-2">
+                  <img src={pic1} className="slide_img" alt="1" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item bg-success header-carousel-item">
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-12 d-lg-none">
+                  <div className="slide_header"></div>
+                </div>
+                <div className="col-sm-12 col-lg-6 order-2 order-lg-1">
+                  <div className="slide_title text-center text-lg-left">
+                    <a href="#">
+                      Печать
+                      <span className="green"> упаковки</span>
+                    </a>
+                  </div>
+                </div>
+                <div className="col-6 offset-3 offset-lg-0 col-lg-6 text-center order-1 order-lg-2">
+                  <img src={pic2} className="slide_img" alt="2" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item bg-danger header-carousel-item">
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-12 d-lg-none">
+                  <div className="slide_header"></div>
+                </div>
+                <div className="col-sm-12 col-lg-6 order-2 order-lg-1">
+                  <div className="slide_title text-center text-lg-left">
+                    <a href="#">
+                      <span className="yellow">UF-</span>
+                      печать
+                    </a>
+                  </div>
+                </div>
+                <div className="col-6 offset-3 offset-lg-0 col-lg-6 text-center order-1 order-lg-2">
+                  <img src={pic3} className="slide_img" alt="3" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row position-absolute header-form">
+            <div className="header-phone">
+              <a href="tel:+74957777777" className="text-white text-decoration-none">
+                <span>+7(495)777-77-77</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+
+        </div>
+        <div className="container">
+
+        </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
     </header>
   );
 }

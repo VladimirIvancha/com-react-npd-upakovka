@@ -7,26 +7,24 @@ function Footer() {
     <footer className="footer container-fluid mt-5 py-5">
       <div className="container">
         <div className="col-12">
-          <div className="label text-center my-5">
+          <div className="label text-center pb-3">
             <img src={label} alt="Логотип" />
           </div>
           <div className="container bottom_border">
             <div className="row d-flex justify-content-between">
               <div className="col-sm-4 col-12 col">
-                <h5 className="headin5_amrc col_white_amrc pt2">Find us</h5>
+                <h5 className="headin5_amrc col_white_amrc pt2">Наши контакты</h5>
                 <p className="mb10">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
+                  Адрес производства:
                 </p>
                 <p>
-                  <i className="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35{" "}
+                  <i className="fa fa-location-arrow"></i> 141155, Московская обл., г.Подольск, ул.Львовская, вл.55, стр.3
                 </p>
                 <p>
-                  <i className="fa fa-phone"></i> +91-9999878398{" "}
+                  <i className="fa fa-phone"></i> +7(495)777-77-77
                 </p>
                 <p>
-                  <i className="fa fa fa-envelope"></i> info@example.com{" "}
+                  <i className="fa fa fa-envelope"></i> info@npd-upakovka.ru
                 </p>
               </div>
               <div className=" col-sm-4 col-md col-6 col text-center">
@@ -115,29 +113,26 @@ function Footer() {
           <div className="container">
             <ul className="footer_bottom_ul_amrc">
               <li>
-                <a href="#">Home</a>
+                <a href="#">Главная</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#">О нас</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a href="#">Продукция</a>
               </li>
               <li>
-                <a href="#">Pricing</a>
+                <a href="#">Услуги</a>
               </li>
               <li>
-                <a href="#">Blog</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
+                <a href="#">Контакты</a>
               </li>
             </ul>
             <p className="text-center">
               &#169; ООО «NPD-упаковка», 2019–2023 Все права защищены
             </p>
-            <ul className="social_footer_ul">
-              <li>
+            <ul className="social_footer_ul px-0">
+              <li className="px-0">
                 <a href="#">
                   <i className="fab fa-facebook-f"></i>
                 </a>
