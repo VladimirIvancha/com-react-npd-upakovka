@@ -2,6 +2,43 @@ import photo1 from "../assets/images/alco_2-min.webp";
 import photo2 from "../assets/images/Babaevskiy_packaging-min.webp";
 import photo3 from "../assets/images/DesignDepot_2_calendar.webp";
 
+import pic1 from '../assets/images/pos1-min.webp'
+import pic2 from '../assets/images/tea1-min.webp'
+import pic3 from '../assets/images/uf1-min.webp'
+
+const headerCarouselItemsInitialData = [
+  {
+    id: "heder-carousel-item01",
+    mainClass: "carousel-item bg-warning header-carousel-item active",
+    spanClass1: "red",
+    spanClass2: "darks",
+    spanText1: "POS-",
+    spanText2: "материалы",
+    img: pic1,
+    alt: "POS-материалы",
+  },
+  {
+    id: "heder-carousel-item02",
+    mainClass: "carousel-item bg-success header-carousel-item",
+    spanClass1: "",
+    spanClass2: "green",
+    spanText1: "Печать",
+    spanText2: " упаковки",
+    img: pic2,
+    alt: "Печать упаковки",
+  },
+  {
+    id: "heder-carousel-item03",
+    mainClass: "carousel-item bg-danger header-carousel-item",
+    spanClass1: "yellow",
+    spanClass2: "",
+    spanText1: "UF-",
+    spanText2: "печать",
+    img: pic3,
+    alt: "UF-печать",
+  },
+]
+
 const aboutIntroText = "«NPD-упаковка» - крупная типография европейского уровня обслуживания и надежный партнер вашего бизнеса. Предоставляем каждому клиенту лучшие полиграфические решения, путем внедрения передовых технологий полиграфии и самых высоких стандартов качества. Мы типография полного производственного цикла. У нас лучшее специализированное программное обеспечение, современное высокотехнологичное оборудование. Наша типография является официальным партнером компаний КБА и Гейдельберг."
 
 const aboutDocsInitialData = [
@@ -122,6 +159,7 @@ const aboutPortfolioSwiperInitialData = [
 ];
 
 export {
+  headerCarouselItemsInitialData,
   aboutIntroText,
   aboutPortfolioSwiperInitialData,
   aboutOurMachinesLinksInitialData,

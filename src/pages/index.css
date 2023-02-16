@@ -86,6 +86,21 @@ code {
   font-size: 24px;
 }
 
+#carouselExampleIndicators .carousel-indicators {
+  top: inherit;
+  height: 50px;
+  bottom: -15px;
+}
+
+.header-indicator {
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  border: 0;
+  opacity: 1;
+  background-color: #c2cad4;
+}
+
 @media screen and (max-width: 992px) {
   .slide_img {
     max-width: 100%;
@@ -103,11 +118,19 @@ code {
     height: 544px;
   }
   .header-form {
-    bottom: 10px;
+    bottom: -35px;
   }
   .header-phone {
     font-size: 20px;
     text-align: center;
+  }
+  #carouselExampleIndicators .carousel-indicators {
+    top: -175px;
+  }
+  .header-indicator {
+    height: 15px;
+    width: 15px;
+    border-radius: 12px;
   }
 }
 .layout__hr {
