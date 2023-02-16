@@ -137,11 +137,6 @@ code {
     border-radius: 12px;
   }
 }
-.layout__hr {
-  margin: 0;
-  padding: 0;
-}
-
 /* Google Fonts - Poppins */
 .portfolioSliderCards {
   display: flex;
