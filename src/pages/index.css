@@ -29,6 +29,10 @@ code {
   transform: translate(-50%, -50%);
 }
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 .slide_img {
   max-width: 100%;
   max-height: 385px;
@@ -438,6 +442,16 @@ code {
 
 .footer_bottom_ul_amrc li a:hover {
   color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .footer_bottom_ul_amrc {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_bottom_ul_amrc li {
+    margin: 8px 0;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

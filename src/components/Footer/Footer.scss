@@ -124,3 +124,14 @@
 .footer_bottom_ul_amrc li a:hover {
   color: #fff;
 }
+
+@media screen and (max-width: 500px) {
+  .footer_bottom_ul_amrc {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_bottom_ul_amrc li {
+    margin: 8px 0;
+  }
+}

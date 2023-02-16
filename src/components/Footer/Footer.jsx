@@ -12,13 +12,13 @@ function Footer() {
           </div>
           <div className="container bottom_border">
             <div className="row d-flex justify-content-between">
-              <div className="col-sm-4 col-12 col">
+              <div className="col-md-4 col-sm-6 col-12 text-sm-start text-center">
                 <h5 className="headin5_amrc col_white_amrc pt2">Наши контакты</h5>
                 <p className="mb10">
                   Адрес производства:
                 </p>
                 <p>
-                  <i className="fa fa-location-arrow"></i> 141155, Московская обл., г.Подольск, ул.Львовская, вл.55, стр.3
+                  <i className="fa fa-location-arrow"></i> 142155, Московская обл., г.Подольск, мкр.Львовский, пр-д Металлургов, д.3, стр.1
                 </p>
                 <p>
                   <i className="fa fa-phone"></i> +7(495)777-77-77
@@ -27,7 +27,7 @@ function Footer() {
                   <i className="fa fa fa-envelope"></i> info@npd-upakovka.ru
                 </p>
               </div>
-              <div className=" col-sm-4 col-md col-6 col text-center">
+              <div className="d-none d-md-block col-md-4 col-6 text-center">
                 <h5 className="headin5_amrc col_white_amrc pt2">Quick links</h5>
                 <ul className="footer_ul_amrc">
                   <li>
@@ -50,9 +50,8 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className=" col-sm-4 col-md  col-6 col text-end">
+              <div className="col-md-4 col-sm-6 col-12 text-center text-sm-end">
                 <h5 className="headin5_amrc col_white_amrc pt2">Quick links</h5>
-
                 <ul className="footer_ul_amrc">
                   <li>
                     <a href="#">Remove Background</a>
@@ -74,44 +73,10 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              {/* <div className=" col-sm-4 col-md  col-12 col">
-                <h5 className="headin5_amrc col_white_amrc pt2">Follow us</h5>
-
-                <ul className="footer_ul2_amrc">
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-twitter fleft padding-right"></i>{" "}
-                    </a>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing...
-                      <a href="#">https://www.lipsum.com/</a>
-                    </p>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-twitter fleft padding-right"></i>{" "}
-                    </a>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing...
-                      <a href="#">https://www.lipsum.com/</a>
-                    </p>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-twitter fleft padding-right"></i>{" "}
-                    </a>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing...
-                      <a href="#">https://www.lipsum.com/</a>
-                    </p>
-                  </li>
-                </ul>
-              </div> */}
             </div>
           </div>
-
           <div className="container">
-            <ul className="footer_bottom_ul_amrc">
+            <ul className="footer_bottom_ul_amrc d-flex justify-content-between">
               <li>
                 <a href="#">Главная</a>
               </li>
@@ -128,7 +93,7 @@ function Footer() {
                 <a href="#">Контакты</a>
               </li>
             </ul>
-            <p className="text-center">
+            <p className="text-center py-3">
               &#169; ООО «NPD-упаковка», 2019–2023 Все права защищены
             </p>
             <ul className="social_footer_ul px-0">

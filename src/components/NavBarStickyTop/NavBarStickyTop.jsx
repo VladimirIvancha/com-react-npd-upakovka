@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 function NavBarStickyTop() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary bg-primary py-0 sticky-top">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-primary py-0">
       <div className="container-fluid bg-primary bg-gradient">
         <a className="nav-link active text-light fs-3" href="#">
           NPD-упаковка
         </a>
         <button
-          className="navbar-toggler text-light fs-4 border-0"
+          className="navbar-toggler text-light fs-2 border-0 m-2"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo02"
