@@ -6,6 +6,11 @@ import pic1 from '../assets/images/pos1-min.webp'
 import pic2 from '../assets/images/tea1-min.webp'
 import pic3 from '../assets/images/uf1-min.webp'
 
+import homepic1 from '../assets/images/plastik.webp'
+import homepic2 from '../assets/images/uf-lak.webp'
+import homepic3 from '../assets/images/upack.webp'
+import homepic4 from '../assets/images/prozr-plenka.webp'
+
 const headerCarouselItemsInitialData = [
   {
     id: "heder-carousel-item01",
@@ -165,4 +170,8 @@ export {
   aboutOurMachinesLinksInitialData,
   tabPaneInitialData,
   aboutDocsInitialData,
+  homepic1,
+  homepic2,
+  homepic3,
+  homepic4,
 };
