@@ -13,6 +13,11 @@ import homepic4 from '../assets/images/prozr-plenka.webp'
 
 import upak1 from '../assets/images/upak-1.webp'
 
+import reason1 from '../assets/images/reason1.png'
+import reason2 from '../assets/images/reason2.png'
+import reason3 from '../assets/images/reason3.png'
+import reason4 from '../assets/images/reason4.png'
+
 const headerCarouselItemsInitialData = [
   {
     id: "heder-carousel-item01",
@@ -177,4 +182,8 @@ export {
   homepic3,
   homepic4,
   upak1,
+  reason1,
+  reason2,
+  reason3,
+  reason4,
 };

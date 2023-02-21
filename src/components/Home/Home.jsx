@@ -59,7 +59,7 @@ function Home() {
           </div>
         </div>
         <div className="row">
-          <div className="col-12 block_header monserrat-bold text-center mt-5">
+          <div className="col-12 text-center mt-5">
             <div className="fs-2 fw-bold">
               Готовые решения
             </div>
@@ -70,7 +70,6 @@ function Home() {
             <a href="#karton" className="active">Упаковка из картона</a> <a href="#rekl">Рекламная полиграфия</a> <a href="#pechat">Календари</a> <a href="#posmat">POS материалы</a>
           </div>
         </div>
-
 
         <div className="row">
 
@@ -168,7 +167,83 @@ function Home() {
 
         </div>
 
+        <div className="reasons">
+          <div className="container">
 
+            <div className="row">
+              <div className="col-12 text-center mt-5">
+                <div className="fs-2 fw-bold">
+                  Причина работать с нами
+                </div>
+              </div>
+            </div>
+
+            <div className="row g-4 my-5">
+              <div className="col-12 col-sm-6 mb-3">
+                <div className="row reason1">
+                  <div className="col-2 col-sm-2">
+                    <div className="home-img mx-auto"></div>
+                  </div>
+
+                  <h3 className="reason-title col-10 text-start" >Быстро</h3>
+
+                  <div className="reason_descr col-12">
+                    Ответим на запрос в течение 20 мин.<br />
+                    Предоставим стоимость в течение 3 часов.<br />
+                    Изготовим тираж за 5 дней.
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-sm-6 mb-3">
+                <div className="row reason2">
+
+                  <div className="col-2">
+                    <div className="home-img mx-auto"></div>
+                  </div>
+
+                  <h3 className="reason-title col-10 text-start"  >Под ключ</h3>
+
+                  <div className="reason_descr col-12">
+                    Разработаем макет. Сделаем тестовый образец конструкции. Напечатаем и обработаем. Упакуем и доставим.
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-sm-6 mb-3">
+                <div className="row reason3">
+
+                  <div className="col-2">
+                    <div className="home-img mx-auto"></div>
+                  </div>
+
+                  <h3 className="reason-title col-10 text-start"  >Доставка - 0р</h3>
+
+                  <div className="reason_descr col-12">
+                    Доставляем бесплатно тиражи в будни в пределах МКАД, если вес тиража составляет 1500 кг.
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-sm-6 mb-3">
+                <div className="row reason4">
+
+                  <div className="col-2">
+                    <div className="home-img mx-auto"></div>
+                  </div>
+
+                  <h3 className="reason-title col-10 text-start"  >Качество - 100%</h3>
+
+                  <div className="reason_descr col-12">
+                    Многоуровневая система контроля качества позволяет нам безупречно выполнять свою работу.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
       </div>
     </section>
   )

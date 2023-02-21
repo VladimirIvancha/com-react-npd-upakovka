@@ -115,3 +115,35 @@
 .card-text {
     font-size: calc(0.7rem + 0.4vw);
 }
+
+.home-img {
+    width: 34px;
+    height: 34px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.reason1 .home-img {
+    background-image: url(../assets/images/reason1.png);
+}
+
+.reason2 .home-img {
+    background-image: url(../assets/images/reason2.png);
+}
+
+.reason3 .home-img {
+    background-image: url(../assets/images/reason3.png);
+}
+
+.reason4 .home-img {
+    background-image: url(../assets/images/reason4.png);
+}
+
+.reason_descr {
+    font-size: calc(0.7rem + 0.4vw);
+}
+
+.reason-title {
+    font-size: calc(0.9rem + 0.5vw);
+}
