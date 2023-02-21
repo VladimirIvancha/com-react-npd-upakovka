@@ -1,3 +1,4 @@
+@import "../../node_modules/rfs/scss.scss";
 @import '../components/constants',
 '../components/mixins',
 '../components/App/App',
@@ -5,4 +6,4 @@
 '../components/Header/Header.scss',
 '../components/About/AboutPortfolioSwiper/AboutPortfolioSwiper.scss',
 '../components/Footer/Footer.scss',
-'../components/Home/Home.scss'
+'../components/Home/Home.scss';

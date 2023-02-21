@@ -11,6 +11,8 @@ import homepic2 from '../assets/images/uf-lak.webp'
 import homepic3 from '../assets/images/upack.webp'
 import homepic4 from '../assets/images/prozr-plenka.webp'
 
+import upak1 from '../assets/images/upak-1.webp'
+
 const headerCarouselItemsInitialData = [
   {
     id: "heder-carousel-item01",
@@ -174,4 +176,5 @@ export {
   homepic2,
   homepic3,
   homepic4,
+  upak1,
 };

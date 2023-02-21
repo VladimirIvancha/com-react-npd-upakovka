@@ -1,13 +1,13 @@
 import React from 'react'
-import { homepic1, homepic2, homepic3, homepic4 } from '../../utils/initialData'
+import { homepic1, homepic2, homepic3, homepic4, upak1 } from '../../utils/initialData'
 
 function Home() {
   return (
-    <section className="container">
+    <section className="home container">
       <div className="container">
         <div className="row">
-          <div className="col-12 block_header monserrat-bold text-center my-5">
-            <h1>Компания <span>NPD-упаковка</span></h1>
+          <div className="col-12 text-center my-5">
+            <h1 className="fw-bold">Компания <span>NPD-упаковка</span></h1>
           </div>
         </div>
         <div className="col-12">
@@ -59,142 +59,116 @@ function Home() {
           </div>
         </div>
         <div className="row">
-          <div className="col-12 block_header monserrat-bold text-center">
-            <div className="h2">
+          <div className="col-12 block_header monserrat-bold text-center mt-5">
+            <div className="fs-2 fw-bold">
               Готовые решения
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="links col-12 text-center">
-            <a href="#karton" className="active">Упаковка из картона</a> <a href="#rekl">Рекламная полиграфия</a> <a href="#biznes">Бизнес-полиграфия</a> <a href="#pechat">Календари</a> <a href="#posmat">POS материалы</a>
+          <div className="links col-12 text-center my-5 fs-5">
+            <a href="#karton" className="active">Упаковка из картона</a> <a href="#rekl">Рекламная полиграфия</a> <a href="#pechat">Календари</a> <a href="#posmat">POS материалы</a>
           </div>
         </div>
-        <div className="row items karton show">
 
-          <div className="item_wrapper  col-sm-12 col-md-4 col-lg-6">
-            <div className="decision_item" id="upak1">
-              <div className="item_img"><img src="/upload/resize_cache/webp/iblock/f7e/1.webp" alt="" /></div>
-              <div className="item_header">Коробка «Коньячная»</div>
-              <div className="item_descr">
-                Коробка с самосборным дном.<br />
-                Размер&nbsp;200х90х260 мм<br />
-                Красочность: 4+0<br />
-                Кашированный на микрогофру картон<br />
-                Тираж: 5000 экз.
+
+        <div className="row">
+
+          <div className="col-12 col-lg-6">
+            <div className="col item-wrapper">
+              <div className="card mb-3">
+                <div className="row g-0">
+                  <div className="col-4 d-flex justify-content-center m-auto">
+                    <img src={upak1} className="img-fluid rounded-start" alt="..." />
+                  </div>
+                  <div className="col-8">
+                    <div className="card-body">
+                      <h5 className="card-title home-title">Коробка «Коньячная»</h5>
+                      <p className="card-text home-text">Коробка с самосборным дном.<br />
+                        Размер&nbsp;200х90х260 мм<br />
+                        Красочность: 4+0<br />
+                        Кашированный на микрогофру картон<br />
+                      </p>
+                      <p className="card-text home-text"><small>Тираж: 5000 экз.</small></p>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="decision_item hover banner">
-              <div className="block_header text-white float-lg-left monserrat-bold font24 col-12 col-lg-6">Коробка «Коньячная»</div>
-              <div className="toggle monserrat-bold float-lg-right text-white" data-toggle="modal" data-target="#myModal2" onclick="modalgot('upak1');">Заказать</div>
-
             </div>
           </div>
 
-
-          <div className="item_wrapper  col-sm-12 col-md-4 col-lg-6">
-            <div className="decision_item" id="upak2">
-              <div className="item_img"><img src="/upload/resize_cache/webp/iblock/5b3/4.webp" alt="" /></div>
-              <div className="item_header">Коробка «Лекарственная»</div>
-              <div className="item_descr">
-                Коробка клеевая на 1 точку<br />
-                Размер 42х20х102 мм&nbsp;&nbsp;<br />
-                Красочность: 4+0 <br />
-                Картон 1-стороннего мелования 250 г/м2<br />
-                Тираж: 10000 экз.
+          <div className="col-12 col-lg-6">
+            <div className="col item-wrapper">
+              <div className="card mb-3">
+                <div className="row g-0">
+                  <div className="col-4 d-flex justify-content-center m-auto">
+                    <img src={upak1} className="img-fluid rounded-start" alt="..." />
+                  </div>
+                  <div className="col-8">
+                    <div className="card-body">
+                      <h5 className="card-title">Коробка «Лекарственная»</h5>
+                      <p className="card-text">Коробка клеевая на 1 точку<br />
+                        Размер 42х20х102 мм&nbsp;&nbsp;<br />
+                        Красочность: 4+0 <br />
+                        Картон 1-стороннего мелования 250 г/м2<br />
+                      </p>
+                      <p className="card-text"><small>Тираж: 10000 экз.</small></p>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="decision_item hover banner">
-              <div className="block_header text-white float-lg-left monserrat-bold font24 col-12 col-lg-6">Коробка «Лекарственная»</div>
-              <div className="toggle monserrat-bold float-lg-right text-white" data-toggle="modal" data-target="#myModal2" onclick="modalgot('upak2');">Заказать</div>
-
             </div>
           </div>
 
-
-          <div className="item_wrapper  col-sm-12 col-md-4 col-lg-6">
-            <div className="decision_item" id="upak3">
-              <div className="item_img"><img src="/upload/resize_cache/webp/iblock/f03/monoblock.webp" alt="" /></div>
-              <div className="item_header">Коробка «Моноблок»</div>
-              <div className="item_descr">
-                Коробка клеевая на 5 точек <br />
-                Размер 205х145х25 мм <br />
-                Красочность: 4+0 <br />
-                Картон 1-стороннего мелования 300 г/м2 <br />
-                Тираж: 5000 экз.
+          <div className="col-12 col-lg-6">
+            <div className="col item-wrapper">
+              <div className="card mb-3">
+                <div className="row g-0">
+                  <div className="col-4 d-flex justify-content-center m-auto">
+                    <img src={upak1} className="img-fluid rounded-start" alt="..." />
+                  </div>
+                  <div className="col-8">
+                    <div className="card-body">
+                      <h5 className="card-title">Коробка «Коньячная»</h5>
+                      <p className="card-text">Коробка с самосборным дном.<br />
+                        Размер&nbsp;200х90х260 мм<br />
+                        Красочность: 4+0<br />
+                        Кашированный на микрогофру картон<br />
+                      </p>
+                      <p className="card-text"><small>Тираж: 5000 экз.</small></p>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="decision_item hover banner">
-              <div className="block_header text-white float-lg-left monserrat-bold font24 col-12 col-lg-6">Коробка «Моноблок»</div>
-              <div className="toggle monserrat-bold float-lg-right text-white" data-toggle="modal" data-target="#myModal2" onclick="modalgot('upak3');">Заказать</div>
-
             </div>
           </div>
 
-
-          <div className="item_wrapper  col-sm-12 col-md-4 col-lg-6">
-            <div className="decision_item" id="upak4">
-              <div className="item_img"><img src="/upload/resize_cache/webp/iblock/c9c/5.webp" alt="" /></div>
-              <div className="item_header">Коробка  «Шоу-бокс»</div>
-              <div className="item_descr">
-                Коробка клеевая на 3 точки<br />
-                Размер 114х75х44 мм&nbsp;&nbsp;<br />
-                Красочность: 4+0 <br />
-                Картон 1-стороннего мелования 250 г/м2<br />
-                Тираж: 5000 экз.
+          <div className="col-12 col-lg-6">
+            <div className="col item-wrapper">
+              <div className="card mb-3">
+                <div className="row g-0">
+                  <div className="col-4 d-flex justify-content-center m-auto">
+                    <img src={upak1} className="img-fluid rounded-start" alt="..." />
+                  </div>
+                  <div className="col-8">
+                    <div className="card-body">
+                      <h5 className="card-title">Коробка «Лекарственная»</h5>
+                      <p className="card-text">Коробка клеевая на 1 точку<br />
+                        Размер 42х20х102 мм&nbsp;&nbsp;<br />
+                        Красочность: 4+0 <br />
+                        Картон 1-стороннего мелования 250 г/м2<br />
+                      </p>
+                      <p className="card-text"><small>Тираж: 10000 экз.</small></p>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="decision_item hover banner">
-              <div className="block_header text-white float-lg-left monserrat-bold font24 col-12 col-lg-6">Коробка  «Шоу-бокс»</div>
-              <div className="toggle monserrat-bold float-lg-right text-white" data-toggle="modal" data-target="#myModal2" onclick="modalgot('upak4');">Заказать</div>
-
-            </div>
-          </div>
-
-
-          <div className="item_wrapper  col-sm-12 col-md-4 col-lg-6">
-            <div className="decision_item" id="upak5">
-              <div className="item_img"><img src="/upload/resize_cache/webp/iblock/032/3.webp" alt="" /></div>
-              <div className="item_header">Коробка  «Кондитерская»</div>
-              <div className="item_descr">
-                Коробка клеевая на 6 точек<br />
-                Размер 210х250х55 мм с крышкой <br />
-                Красочность: 4+0<br />
-                Картон 1-стороннего мелования 300 г/м2<br />
-                Тираж: 5000 экз.<br />
-
-              </div>
-
-            </div>
-            <div className="decision_item hover banner">
-              <div className="block_header text-white float-lg-left monserrat-bold font24 col-12 col-lg-6">Коробка  «Кондитерская»</div>
-              <div className="toggle monserrat-bold float-lg-right text-white" data-toggle="modal" data-target="#myModal2" onclick="modalgot('upak5');">Заказать</div>
-
-            </div>
-          </div>
-
-
-          <div className="item_wrapper  col-sm-12 col-md-4 col-lg-6">
-            <div className="decision_item" id="upak6">
-              <div className="item_img"><img src="/upload/resize_cache/webp/iblock/6bc/korobkaruchka.webp" alt="" /></div>
-              <div className="item_header">Коробка-пакет</div>
-              <div className="item_descr">
-                Коробка клеевая на 3 точки<br />
-                Размер 150х80х250 мм <br />
-                Красочность: 4+0 <br />
-                Картон 1-стороннего мелования 250 г/м2<br />
-                Тираж: 5000 экз.
-              </div>
-
-            </div>
-            <div className="decision_item hover banner">
-              <div className="block_header text-white float-lg-left monserrat-bold font24 col-12 col-lg-6">Коробка-пакет</div>
-              <div className="toggle monserrat-bold float-lg-right text-white" data-toggle="modal" data-target="#myModal2" onclick="modalgot('upak6');">Заказать</div>
-
             </div>
           </div>
 
         </div>
+
+
       </div>
     </section>
   )
