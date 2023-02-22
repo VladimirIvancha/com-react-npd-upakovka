@@ -51,6 +51,133 @@ const headerCarouselItemsInitialData = [
   },
 ]
 
+const homeOurSpecialityItemInitialData = [
+  {
+    id: "spec01",
+    title: "ПЕЧАТЬ НА ПЛАСТИКЕ",
+    img: homepic1,
+    alt: "ПЕЧАТЬ НА ПЛАСТИКЕ",
+  },
+  {
+    id: "spec02",
+    title: "Офсетная уф печать",
+    img: homepic2,
+    alt: "Офсетная уф печать",
+  },
+  {
+    id: "spec03",
+    title: "ИЗГОТОВЛЕНИЕ УПАКОВКИ",
+    img: homepic3,
+    alt: "ИЗГОТОВЛЕНИЕ УПАКОВКИ",
+  },
+  {
+    id: "spec04",
+    title: "Печать на пленке",
+    img: homepic4,
+    alt: "Печать на пленке",
+  },
+]
+
+const homeReadyItemInitialData = [
+  {
+    id: "ready1",
+    img: upak1,
+    alt: "Коробка «Коньячная»",
+    title: "Коробка «Коньячная»",
+    text: "Коробка с самосборным дном. Размер&nbsp;200х90х260 мм. Красочность: 4+0. Кашированный на микрогофру картон.",
+    qty: "Тираж: 5000 экз.",
+  },
+  {
+    id: "ready2",
+    img: upak1,
+    alt: "Коробка «Коньячная»",
+    title: "Коробка «Лекарственная»",
+    text: "Коробка клеевая на 1 точку. Размер 42х20х102 мм. Красочность: 4+0. Картон 1-стороннего мелования 250 г/м2.",
+    qty: "Тираж: 10000 экз.",
+  },
+  {
+    id: "ready3",
+    img: upak1,
+    alt: "Коробка «Коньячная»",
+    title: "Коробка «Коньячная»",
+    text: "Коробка с самосборным дном. Размер&nbsp;200х90х260 мм. Красочность: 4+0. Кашированный на микрогофру картон.",
+    qty: "Тираж: 5000 экз.",
+  },
+  {
+    id: "ready4",
+    img: upak1,
+    alt: "Коробка «Лекарственная»",
+    title: "Коробка «Лекарственная»",
+    text: "Коробка клеевая на 1 точку. Размер 42х20х102 мм. Красочность: 4+0. Картон 1-стороннего мелования 250 г/м2.",
+    qty: "Тираж: 10000 экз.",
+  },
+]
+
+const homeReasonItemInitialData = [
+  {
+    id: 'reason-1',
+    cardClass: "row reason1",
+    title: "Быстро",
+    description: "Ответим на запрос в течение 20 мин. Предоставим стоимость в течение 3 часов. Изготовим тираж за 5 дней.",
+  },
+  {
+    id: 'reason-1',
+    cardClass: "row reason2",
+    title: "Под ключ",
+    description: "Разработаем макет. Сделаем тестовый образец конструкции. Напечатаем и обработаем. Упакуем и доставим.",
+  },
+  {
+    id: 'reason-1',
+    cardClass: "row reason3",
+    title: "Доставка - 0р",
+    description: "Доставляем бесплатно тиражи в будни в пределах МКАД, если вес тиража составляет 1500 кг.",
+  },
+  {
+    id: 'reason-1',
+    cardClass: "row reason4",
+    title: "Качество - 100%",
+    description: "Многоуровневая система контроля качества позволяет нам безупречно выполнять свою работу.",
+  },
+]
+
+const homeOurAdvantageItemInitialData = [
+  {
+    id: "advantage-01",
+    title: "Оборудование",
+    text: "Большой парк собственного оборудования.",
+    link: "#",
+    linkText: "ссылка",
+  },
+  {
+    id: "advantage-02",
+    title: "Конструкторское бюро",
+    text: "Разработаем и предоставим тестовый образец упаковки.",
+    link: "#",
+    linkText: "ссылка",
+  },
+  {
+    id: "advantage-03",
+    title: "Постпечатная обработка",
+    text: "Большие возможности по отделке и послепечатной обработке продукции.",
+    link: "#",
+    linkText: "ссылка",
+  },
+  {
+    id: "advantage-04",
+    title: "УФ печать",
+    text: "Печатаем на всех видах невпитывающих материалов.",
+    link: "#",
+    linkText: "ссылка",
+  },
+  {
+    id: "advantage-05",
+    title: "Автоматизация",
+    text: "Полная автоматизация всех бизнес-процессов. Ни одно Ваше обращение не останется без внимания.",
+    link: "",
+    linkText: "ссылка",
+  },
+]
+
 const aboutIntroText = "«NPD-упаковка» - крупная типография европейского уровня обслуживания и надежный партнер вашего бизнеса. Предоставляем каждому клиенту лучшие полиграфические решения, путем внедрения передовых технологий полиграфии и самых высоких стандартов качества. Мы типография полного производственного цикла. У нас лучшее специализированное программное обеспечение, современное высокотехнологичное оборудование. Наша типография является официальным партнером компаний КБА и Гейдельберг."
 
 const aboutDocsInitialData = [
@@ -172,16 +299,15 @@ const aboutPortfolioSwiperInitialData = [
 
 export {
   headerCarouselItemsInitialData,
+  homeOurSpecialityItemInitialData,
+  homeReadyItemInitialData,
+  homeReasonItemInitialData,
+  homeOurAdvantageItemInitialData,
   aboutIntroText,
   aboutPortfolioSwiperInitialData,
   aboutOurMachinesLinksInitialData,
   tabPaneInitialData,
   aboutDocsInitialData,
-  homepic1,
-  homepic2,
-  homepic3,
-  homepic4,
-  upak1,
   reason1,
   reason2,
   reason3,
