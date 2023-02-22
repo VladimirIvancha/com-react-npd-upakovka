@@ -18,6 +18,34 @@ import reason2 from '../assets/images/reason2.png'
 import reason3 from '../assets/images/reason3.png'
 import reason4 from '../assets/images/reason4.png'
 
+const navBarStickyTopItemsInitialData = [
+  {
+    id: "main",
+    link: "/",
+    title: "Главная",
+  },
+  {
+    id: "about",
+    link: "/about",
+    title: "О нас",
+  },
+  {
+    id: "dashboard",
+    link: "/dashboard",
+    title: "Продукция",
+  },
+  {
+    id: "services",
+    link: "/",
+    title: "Услуги",
+  },
+  {
+    id: "contacts",
+    link: "/",
+    title: "Контакты",
+  },
+]
+
 const headerCarouselItemsInitialData = [
   {
     id: "heder-carousel-item01",
@@ -121,19 +149,19 @@ const homeReasonItemInitialData = [
     description: "Ответим на запрос в течение 20 мин. Предоставим стоимость в течение 3 часов. Изготовим тираж за 5 дней.",
   },
   {
-    id: 'reason-1',
+    id: 'reason-2',
     cardClass: "row reason2",
     title: "Под ключ",
     description: "Разработаем макет. Сделаем тестовый образец конструкции. Напечатаем и обработаем. Упакуем и доставим.",
   },
   {
-    id: 'reason-1',
+    id: 'reason-3',
     cardClass: "row reason3",
     title: "Доставка - 0р",
     description: "Доставляем бесплатно тиражи в будни в пределах МКАД, если вес тиража составляет 1500 кг.",
   },
   {
-    id: 'reason-1',
+    id: 'reason-4',
     cardClass: "row reason4",
     title: "Качество - 100%",
     description: "Многоуровневая система контроля качества позволяет нам безупречно выполнять свою работу.",
@@ -298,6 +326,7 @@ const aboutPortfolioSwiperInitialData = [
 ];
 
 export {
+  navBarStickyTopItemsInitialData,
   headerCarouselItemsInitialData,
   homeOurSpecialityItemInitialData,
   homeReadyItemInitialData,
