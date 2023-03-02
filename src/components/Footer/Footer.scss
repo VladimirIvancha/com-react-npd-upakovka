@@ -3,6 +3,12 @@
   background-color: #263238;
   min-height: 250px;
   padding: 10px 0px 25px 0px;
+
+  & .label img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+  }
 }
 
 .col_white_amrc {
@@ -126,6 +132,13 @@
 }
 
 @media screen and (max-width: 500px) {
+  .footer {
+    & .label img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
   .footer_bottom_ul_amrc {
     flex-direction: column;
     align-items: center;

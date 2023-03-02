@@ -318,6 +318,11 @@ code {
   min-height: 250px;
   padding: 10px 0px 25px 0px;
 }
+.footer .label img {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+}
 
 .col_white_amrc {
   color: #fff;
@@ -440,6 +445,10 @@ code {
 }
 
 @media screen and (max-width: 500px) {
+  .footer .label img {
+    width: 100px;
+    height: 100px;
+  }
   .footer_bottom_ul_amrc {
     flex-direction: column;
     align-items: center;
@@ -448,6 +457,61 @@ code {
     margin: 8px 0;
   }
 }
+.home .links a {
+  margin-right: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+.home .video_wrapper {
+  padding-top: 25px;
+  height: 0;
+  position: relative;
+  padding-bottom: 40.25%;
+}
+.home .video_wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home .form_wrapper {
+  margin-top: 30px;
+}
+.home .edit {
+  color: #aab4bf;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 29px;
+  border: 0;
+  width: 270px;
+  margin: 0 14px 14px 0;
+  float: none;
+}
+.home .toggle {
+  padding: 22px 0px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+  background: transparent;
+  text-align: center;
+  background-repeat: no-repeat;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 29px;
+  height: 61px;
+  width: 216px;
+  color: #fff;
+}
+
+.contactform {
+  background-color: #263238;
+  padding: 29px 0;
+  overflow: hidden;
+  margin-top: 3rem;
+}
+
 .productitem {
   background: #fff;
   border-top: 1px solid #cecece;
@@ -491,12 +555,6 @@ code {
 .productitem_image img {
   max-width: 100%;
   max-height: 170px;
-}
-
-.home .links a {
-  margin-right: 20px;
-  display: inline-block;
-  text-decoration: none;
 }
 
 .decision_item {
@@ -591,6 +649,46 @@ code {
 
 .reason-title {
   font-size: calc(0.9rem + 0.5vw);
+}
+
+@media screen and (min-width: 992px) {
+  .home .video_wrapper {
+    background: url(../assets/images/video.png) no-repeat top center;
+    height: 517px;
+    width: 900px;
+    text-align: center;
+    padding-top: 61px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 100%;
+  }
+  .home .video_wrapper iframe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 48px;
+    width: 831px;
+    height: 469px;
+  }
+  .home .edit {
+    width: auto;
+    margin: 0 14px 0 0;
+    float: none;
+  }
+  .contactform {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .edit {
+    margin: 0 0 14px 0;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

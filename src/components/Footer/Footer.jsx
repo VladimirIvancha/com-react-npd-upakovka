@@ -1,10 +1,10 @@
 import React from "react";
 
-import label from "../../assets/images/logo_black.webp";
+import label from "../../assets/images/logo_black.jpg";
 
 function Footer() {
   return (
-    <footer className="footer container-fluid mt-5 py-5">
+    <footer className="footer container-fluid py-5">
       <div className="container">
         <div className="col-12">
           <div className="label text-center pb-3">
