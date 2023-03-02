@@ -18,6 +18,8 @@ import reason2 from '../assets/images/reason2.png'
 import reason3 from '../assets/images/reason3.png'
 import reason4 from '../assets/images/reason4.png'
 
+import skrepka from '../assets/images/skrepka.webp'
+
 const navBarStickyTopItemsInitialData = [
   {
     id: "main",
@@ -31,17 +33,17 @@ const navBarStickyTopItemsInitialData = [
   },
   {
     id: "dashboard",
-    link: "/dashboard",
+    link: "/products",
     title: "Продукция",
   },
   {
     id: "services",
-    link: "/",
+    link: "/services",
     title: "Услуги",
   },
   {
     id: "contacts",
-    link: "/",
+    link: "/contacts",
     title: "Контакты",
   },
 ]
@@ -325,6 +327,201 @@ const aboutPortfolioSwiperInitialData = [
   },
 ];
 
+const productsItemsInitialData = [
+  {
+    id: "product-01",
+    img: pic1,
+    name: "Изготовление стаканов",
+    links: [
+      {
+        id: "productlink-01",
+        name: "Рекламные диспенсеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-02",
+        name: "Хардпостеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-03",
+        name: "Cтрайп-лента",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-04",
+        name: "Воблеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-05",
+        name: "Некхенгеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+    ]
+  },
+  {
+    id: "product-02",
+    img: pic2,
+    name: "Изготовление ванн для плаленого сыра",
+    links: [
+      {
+        id: "productlink-01",
+        name: "Рекламные диспенсеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-02",
+        name: "Хардпостеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-03",
+        name: "Cтрайп-лента",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-04",
+        name: "Воблеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-05",
+        name: "Некхенгеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+    ]
+  },
+  {
+    id: "product-03",
+    img: pic3,
+    name: "Изготовление упаковки для мороженого",
+    links: [
+      {
+        id: "productlink-01",
+        name: "Рекламные диспенсеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-02",
+        name: "Хардпостеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-03",
+        name: "Cтрайп-лента",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-04",
+        name: "Воблеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-05",
+        name: "Некхенгеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+    ]
+  },
+  {
+    id: "product-04",
+    img: pic1,
+    name: "Вырубка из картона",
+    links: [
+      {
+        id: "productlink-01",
+        name: "Рекламные диспенсеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-02",
+        name: "Хардпостеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-03",
+        name: "Cтрайп-лента",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-04",
+        name: "Воблеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-05",
+        name: "Некхенгеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+    ]
+  },
+  {
+    id: "product-05",
+    img: pic2,
+    name: "Изготовление упаковки для шаурмы",
+    links: [
+      {
+        id: "productlink-01",
+        name: "Рекламные диспенсеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-02",
+        name: "Хардпостеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-03",
+        name: "Cтрайп-лента",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-04",
+        name: "Воблеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-05",
+        name: "Некхенгеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+    ]
+  },
+  {
+    id: "product-06",
+    img: pic3,
+    name: "Изготовление конусных крышек для мороженого",
+    links: [
+      {
+        id: "productlink-01",
+        name: "Рекламные диспенсеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-02",
+        name: "Хардпостеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-03",
+        name: "Cтрайп-лента",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-04",
+        name: "Воблеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+      {
+        id: "productlink-05",
+        name: "Некхенгеры",
+        href: "/produktsiya/pos-materialy/dispensery/",
+      },
+    ]
+  }
+]
+
 export {
   navBarStickyTopItemsInitialData,
   headerCarouselItemsInitialData,
@@ -341,4 +538,6 @@ export {
   reason2,
   reason3,
   reason4,
+  productsItemsInitialData,
+  skrepka,
 };

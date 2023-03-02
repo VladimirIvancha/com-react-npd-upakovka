@@ -101,11 +101,10 @@ function Home() {
         <div className="row mt-5">
           <div className="col-12 text-center">
             <div className="video_wrapper">
-              <iframe src="https://www.youtube.com/embed/COaXBeiKezw?rel=0&amp;showinfo=0&amp;autoplay=1" allowFullScreen="" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+              <iframe src="https://www.youtube.com/embed/COaXBeiKezw?rel=0&amp;showinfo=0&amp;autoplay=1" allowFullScreen="" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
         </div>
-
       </div>
 
       <div className="contactform container-fluid">
@@ -126,7 +125,7 @@ function Home() {
           </div>
         </div>
       </div>
-      
+
     </section >
   )
 }

@@ -3,8 +3,10 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "../Layout/Layout";
 import Home from "../Home/Home";
 import About from "../About/About";
-import Dashboard from "../Dashboard/Dashboard";
+import Products from "../Products/Products";
 import NoMatch from "../NoMatch/NoMatch";
+import Services from "../Services/Services";
+import Contacts from "../Contacts/Contacts";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="dashboard" element={<Dashboard />} />
+          <Route path="products" element={<Products />} />
+          <Route path="services" element={<Services />} />
+          <Route path="contacts" element={<Contacts />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
