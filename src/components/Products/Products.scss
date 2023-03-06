@@ -2,60 +2,6 @@
   & .products-title {
     font-size: calc(1.375rem + 1.5vw);
   }
-
-  & .edit {
-    width: 100%;
-    text-align: start;
-    padding: 20px;
-
-    color: #aab4bf;
-    border-radius: 29px;
-    border: 0;
-    margin: 0 auto 14px;
-    float: none;
-  }
-
-  & .textarea_wrapper {
-    padding: 0;
-    height: 200px;
-  }
-
-  & .feedbackform textarea {
-    border-radius: 0;
-    height: calc(100% - 20px);
-  }
-
-  & .form-control-file,
-  .form-control-range {
-    display: block;
-    width: 100%;
-    color: #aab4bf;
-  }
-
-  & .form-check a {
-    text-decoration: none;
-    background-color: transparent;
-    color: #fff;
-  }
-
-  & .feedbackform .toggle {
-    display: block;
-    margin-top: 35px;
-    padding: 22px 0px;
-    text-transform: uppercase;
-    cursor: pointer;
-    position: relative;
-    z-index: 100;
-    background: transparent;
-    text-align: center;
-    background-repeat: no-repeat;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 29px;
-    height: 61px;
-    width: 216px;
-    color: #fff;
-  }
 }
 
 .products-item {
@@ -111,20 +57,4 @@
 
 .form-wrapper {
   margin-top: 57px;
-}
-
-@media screen and (min-width: 992px) {
-  .products {
-    & .edit {
-      border-radius: 5px;
-      margin: 0 14px 0 0;
-      float: none;
-      margin-bottom: 20px;
-    }
-
-    & .textarea_wrapper {
-      padding: 0 15px;
-      height: auto;
-    }
-  }
 }

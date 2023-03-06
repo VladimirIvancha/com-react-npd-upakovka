@@ -522,6 +522,114 @@ const productsItemsInitialData = [
   }
 ]
 
+const servicesItemsInitialData = [
+  {
+    id: "service-01",
+    name: "Формовка бумажных стаканов с печатью и без",
+    img: pic1,
+    list: [
+      {
+        id: "servicelink-01-1",
+        href: "#",
+        name: "DW cups",
+      },
+      {
+        id: "servicelink-01-2",
+        href: "#",
+        name: "SP cups",
+      },
+      {
+        id: "servicelink-01-3",
+        href: "#",
+        name: "Креманки",
+      },
+      {
+        id: "servicelink-01-4",
+        href: "#",
+        name: "Стаканы под мороженое",
+      },
+    ]
+  },
+  {
+    id: "service-02",
+    name: "Термоформовка пластиковых контейнеров",
+    img: pic1,
+    list: [
+      {
+        id: "servicelink-02-1",
+        href: "#",
+        name: "DW cups",
+      },
+    ]
+  },
+  {
+    id: "service-03",
+    name: "Вырубка из бумаги",
+    img: pic1,
+    list: [
+      {
+        id: "servicelink-03-1",
+        href: "#",
+        name: "DW cups",
+      },
+      {
+        id: "servicelink-03-2",
+        href: "#",
+        name: "SP cups",
+      },
+      {
+        id: "servicelink-03-3",
+        href: "#",
+        name: "Креманки",
+      },
+      {
+        id: "servicelink-03-4",
+        href: "#",
+        name: "Стаканы под мороженое",
+      },
+    ]
+  },
+  {
+    id: "service-04",
+    name: "Печать на пластиковых контейнерах",
+    img: pic1,
+    list: [
+      {
+        id: "servicelink-04-1",
+        href: "#",
+        name: "DW cups",
+      },
+      {
+        id: "servicelink-04-2",
+        href: "#",
+        name: "Стаканы под мороженое",
+      },
+    ]
+  },
+  {
+    id: "service-05",
+    name: "Еще какая-то услуга",
+    img: pic1,
+    list: [
+      {
+        id: "servicelink-05-1",
+        href: "#",
+        name: "DW cups",
+      },
+      {
+        id: "servicelink-05-2",
+        href: "#",
+        name: "SP cups",
+      },
+      {
+        id: "servicelink-05-3",
+        href: "#",
+        name: "Креманки",
+      },
+    ]
+  },
+]
+
 export {
   navBarStickyTopItemsInitialData,
   headerCarouselItemsInitialData,
@@ -540,4 +648,5 @@ export {
   reason4,
   productsItemsInitialData,
   skrepka,
+  servicesItemsInitialData,
 };
