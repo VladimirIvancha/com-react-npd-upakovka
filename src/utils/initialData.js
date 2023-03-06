@@ -363,7 +363,7 @@ const productsItemsInitialData = [
   {
     id: "product-02",
     img: pic2,
-    name: "Изготовление ванн для плаленого сыра",
+    name: "Изготовление ванн для плавленого сыра",
     links: [
       {
         id: "productlink-01",
