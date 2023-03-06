@@ -1,10 +1,10 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import Layout from "../Layout/Layout";
 import Home from "../Home/Home";
 import About from "../About/About";
 import Products from "../Products/Products";
-import NoMatch from "../NoMatch/NoMatch";
+// import NoMatch from "../NoMatch/NoMatch";
 import Services from "../Services/Services";
 import Contacts from "../Contacts/Contacts";
 
@@ -18,7 +18,7 @@ function App() {
           <Route path="products" element={<Products />} />
           <Route path="services" element={<Services />} />
           <Route path="contacts" element={<Contacts />} />
-          <Route path="*" element={<NoMatch />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>
     </div>

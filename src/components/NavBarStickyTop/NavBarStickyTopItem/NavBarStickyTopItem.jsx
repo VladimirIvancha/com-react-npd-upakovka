@@ -1,16 +1,22 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
-function NavBarStickyTopItem({item}) {
+function NavBarStickyTopItem({ item, setOpen }) {
+  
+  function handleNavbarClose() {
+    setOpen(false);
+  }
+
   return (
     <li className="nav-item">
-      <Link
-        className="nav-link active text-light fs-4"
+      <NavLink
+        className="nav-link text-light fs-4"
         aria-current="page"
         to={item.link}
+        onClick={handleNavbarClose}
       >
         {item.title}
-      </Link>
+      </NavLink>
     </li>
   )
 }

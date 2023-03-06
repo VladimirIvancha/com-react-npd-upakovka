@@ -1,12 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { navBarStickyTopItemsInitialData } from '../../utils/initialData';
 import NavBarStickyTopItem from './NavBarStickyTopItem/NavBarStickyTopItem';
 
 function NavBarStickyTop() {
+  
+  const [isOpen, setOpen] = useState(false)
+
+  const navbarClass = `collapse navbar-collapse ${isOpen && "show"}`
+
+  function handleTogglerClick() {
+    setOpen(!isOpen);
+  }
+
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-primary py-0">
       <div className="container-fluid bg-primary bg-gradient">
-        <a className="nav-link active text-light fs-3" href="#">
+        <a className="nav-link text-light fs-3" href="/">
           NPD-упаковка
         </a>
         <button
@@ -17,13 +26,14 @@ function NavBarStickyTop() {
           aria-controls="navbarTogglerDemo02"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={handleTogglerClick}
         >
           <i className="fa-solid fa-bars"></i>
         </button>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div className={navbarClass} id="navbarTogglerDemo02">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 container justify-content-center">
             {navBarStickyTopItemsInitialData.map((item) => (
-              <NavBarStickyTopItem key={item.id} item={item} />
+              <NavBarStickyTopItem key={item.id} item={item} setOpen={setOpen} />
             ))}
           </ul>
           <div className="d-inline-flex p-2">
