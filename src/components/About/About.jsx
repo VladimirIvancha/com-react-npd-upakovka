@@ -14,7 +14,7 @@ import AboutOurMachinesLink from "./AboutActivityItem/AboutOurMachinesLink/About
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="container">
         <div className="row">
           <div className="col-12 text-center mt-5">

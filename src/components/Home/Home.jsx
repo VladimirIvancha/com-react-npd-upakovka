@@ -8,7 +8,7 @@ import HomeReasonItem from './HomeReasonItem/HomeReasonItem'
 
 function Home() {
   return (
-    <section className="home">
+    <section className="home" id='home'>
       <div className="container">
         <div className="row">
           <div className="col-12 text-center mt-5">
