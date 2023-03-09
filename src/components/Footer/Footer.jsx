@@ -1,6 +1,8 @@
 import React from "react";
 
 import label from "../../assets/images/logo_black.jpg";
+import { scheme02 } from "../../utils/initialData";
+import ContactsSchemeModal from "../Contacts/ContactsSchemeModal/ContactsSchemeModal";
 
 function Footer() {
   return (
@@ -12,66 +14,72 @@ function Footer() {
           </div>
           <div className="container bottom_border">
             <div className="row d-flex justify-content-between">
-              <div className="col-md-4 col-sm-6 col-12 text-sm-start text-center">
+
+              <div className="col-lg-4 col-md-6 col-12 text-md-start text-center d-flex flex-column">
                 <h5 className="headin5_amrc col_white_amrc pt2">Наши контакты</h5>
-                <p className="mb10">
-                  Адрес производства:
-                </p>
-                <p>
-                  <i className="fa fa-location-arrow"></i> 142155, Московская обл., г.Подольск, мкр.Львовский, пр-д Металлургов, д.3, стр.1
-                </p>
-                <p>
-                  <i className="fa fa-phone"></i> +7(495)777-77-77
-                </p>
-                <p>
-                  <i className="fa fa fa-envelope"></i> info@npd-upakovka.ru
-                </p>
+                <div className="row flex-column justify-content-between h-100">
+                  <div className="row">
+                    <p className="mb10">
+                      Адрес производства:
+                    </p>
+                    <p>
+                      <i className="fa fa-location-arrow"></i> 142155, Московская обл., г.Подольск, мкр.Львовский, пр-д Металлургов, д.3, стр.1
+                      <br />
+                      Координаты:
+                      <br />
+                      55.326719, 37.513517
+                    </p>
+                  </div>
+                  <p>
+                    <i className="fa fa-phone"></i> +7(495)777-77-77
+                  </p>
+                  <p>
+                    <i className="fa fa-phone"></i> 8-800-777-77-77
+                  </p>
+                  <p>
+                    <i className="fa fa fa-envelope"></i> info@npd-upakovka.ru
+                  </p>
+                </div>
               </div>
-              <div className="d-none d-md-block col-md-4 col-6 text-center">
+
+              <div className="d-none d-lg-flex flex-column col-lg-4 text-center">
                 <h5 className="headin5_amrc col_white_amrc pt2">Quick links</h5>
-                <ul className="footer_ul_amrc">
-                  <li>
+                <div className="footer_ul_amrc flex-column justify-content-between h-100">
+                  <p>
                     <a href="#">Image Rectoucing</a>
-                  </li>
-                  <li>
+                  </p>
+                  <p>
                     <a href="#">Clipping Path</a>
-                  </li>
-                  <li>
+                  </p>
+                  <p>
                     <a href="#">Hollow Man Montage</a>
-                  </li>
-                  <li>
+                  </p>
+                  <p>
                     <a href="#">Ebay & Amazon</a>
-                  </li>
-                  <li>
+                  </p>
+                  <p>
                     <a href="#">Hair Masking/Clipping</a>
-                  </li>
-                  <li>
+                  </p>
+                  <p>
                     <a href="#">Image Cropping</a>
-                  </li>
-                </ul>
+                  </p>
+                  <p>
+                    <a href="#">Image Cropping</a>
+                  </p>
+                  <p>
+                    <a href="#">Image Cropping</a>
+                  </p>
+                  <p>
+                    <a href="#">Image Cropping</a>
+                  </p>
+                </div>
               </div>
-              <div className="col-md-4 col-sm-6 col-12 text-center text-sm-end">
-                <h5 className="headin5_amrc col_white_amrc pt2">Quick links</h5>
-                <ul className="footer_ul_amrc">
-                  <li>
-                    <a href="#">Remove Background</a>
-                  </li>
-                  <li>
-                    <a href="#">Shadows & Mirror Reflection</a>
-                  </li>
-                  <li>
-                    <a href="#">Logo Design</a>
-                  </li>
-                  <li>
-                    <a href="#">Vectorization</a>
-                  </li>
-                  <li>
-                    <a href="#">Hair Masking/Clipping</a>
-                  </li>
-                  <li>
-                    <a href="#">Image Cropping</a>
-                  </li>
-                </ul>
+
+              <div className="col-lg-4 col-md-6 col-12 text-center text-md-end mt-md-5 mt-lg-0">
+                <h5 className="headin5_amrc col_white_amrc d-md-none d-lg-block pt2">Схема проезда</h5>
+                <button className="btn mt-lg-4" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img className='col-12 rounded h-100' src={scheme02} alt='Схема проезда к офису и производству ООО "NPD-упаковка"' />
+                </button>
               </div>
             </div>
           </div>
@@ -121,6 +129,7 @@ function Footer() {
           </div>
         </div>
       </div>
+      <ContactsSchemeModal />
     </footer>
   );
 }

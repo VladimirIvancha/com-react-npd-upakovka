@@ -2,6 +2,8 @@ import React from 'react'
 import { contactsIntroText } from '../../utils/initialData'
 import ContactsAccordion from './ContactsAccordion/ContactsAccordion'
 import ContactsBlock from './ContactsBlock/ContactsBlock'
+import ContactsMap from './ContactsMap/ContactsMap'
+import ContactsSchemeModal from './ContactsSchemeModal/ContactsSchemeModal'
 
 function Contacts() {
   return (
@@ -21,6 +23,7 @@ function Contacts() {
         <div className="row">
           <div className="col-sm-12 col-lg-6 mb-4">
             <ContactsAccordion />
+            <ContactsMap />
           </div>
 
           <div className="col-sm-12 col-lg-5 offset-lg-1">
@@ -29,6 +32,7 @@ function Contacts() {
         </div>
 
       </div>
+      <ContactsSchemeModal />
     </section>
   )
 }

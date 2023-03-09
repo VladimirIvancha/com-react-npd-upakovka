@@ -30,6 +30,8 @@ import contacts_letter from '../assets/images/contacts_letter.jpg'
 import contacts_phone from '../assets/images/contacts_phone.jpg'
 import contacts_phone2 from '../assets/images/contacts_phone2.jpg'
 import contacts_time from '../assets/images/contacts_time.jpg'
+import scheme02 from '../assets/images/scheme-02.PNG'
+import scheme03 from '../assets/images/scheme-03.PNG'
 
 // NavBarStickyTop Initial Data
 
@@ -685,4 +687,6 @@ export {
   contacts_phone,
   contacts_phone2,
   contacts_time,
+  scheme02,
+  scheme03,
 };
