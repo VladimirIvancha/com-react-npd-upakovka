@@ -36,7 +36,7 @@ function NavBarStickyTop() {
               <NavBarStickyTopItem key={item.id} item={item} setOpen={setOpen} />
             ))}
           </ul>
-          <div className="d-inline-flex p-2">
+          <div className="d-none d-lg-inline-flex p-2">
             <a className="fs-4 px-1 text-light" href="#" target="_blank">
               <i className="fa-brands fa-vk"></i>
             </a>

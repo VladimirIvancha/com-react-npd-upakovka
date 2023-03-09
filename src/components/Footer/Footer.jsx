@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import label from "../../assets/images/logo_black.jpg";
 import { scheme02 } from "../../utils/initialData";
@@ -43,7 +44,7 @@ function Footer() {
               </div>
 
               <div className="d-none d-lg-flex flex-column col-lg-4 text-center">
-                <h5 className="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                <h5 className="headin5_amrc col_white_amrc pt2">Быстрые ссылки</h5>
                 <div className="footer_ul_amrc flex-column justify-content-between h-100">
                   <p>
                     <a href="#">Image Rectoucing</a>
@@ -86,19 +87,19 @@ function Footer() {
           <div className="container">
             <ul className="footer_bottom_ul_amrc d-flex justify-content-between">
               <li>
-                <a href="#">Главная</a>
+                <NavLink to="/">Главная</NavLink>
               </li>
               <li>
-                <a href="#">О нас</a>
+                <NavLink to="/about">О нас</NavLink>
               </li>
               <li>
-                <a href="#">Продукция</a>
+                <NavLink to="/products">Продукция</NavLink>
               </li>
               <li>
-                <a href="#">Услуги</a>
+                <NavLink to="/services">Услуги</NavLink>
               </li>
               <li>
-                <a href="#">Контакты</a>
+                <NavLink to="/contacts">Контакты</NavLink>
               </li>
             </ul>
             <p className="text-center py-3">
