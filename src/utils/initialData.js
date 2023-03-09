@@ -1,3 +1,5 @@
+// Photos and Pictures Import
+
 import photo1 from "../assets/images/alco_2-min.webp";
 import photo2 from "../assets/images/Babaevskiy_packaging-min.webp";
 import photo3 from "../assets/images/DesignDepot_2_calendar.webp";
@@ -19,6 +21,17 @@ import reason3 from '../assets/images/reason3.png'
 import reason4 from '../assets/images/reason4.png'
 
 import skrepka from '../assets/images/skrepka.webp'
+
+import run from '../assets/images/run.webp'
+import bus from '../assets/images/bus.webp'
+import car from '../assets/images/car.webp'
+import contacts_address from '../assets/images/contacts_address.jpg'
+import contacts_letter from '../assets/images/contacts_letter.jpg'
+import contacts_phone from '../assets/images/contacts_phone.jpg'
+import contacts_phone2 from '../assets/images/contacts_phone2.jpg'
+import contacts_time from '../assets/images/contacts_time.jpg'
+
+// NavBarStickyTop Initial Data
 
 const navBarStickyTopItemsInitialData = [
   {
@@ -47,6 +60,8 @@ const navBarStickyTopItemsInitialData = [
     title: "Контакты",
   },
 ]
+
+// Header Initial Data
 
 const headerCarouselItemsInitialData = [
   {
@@ -80,6 +95,8 @@ const headerCarouselItemsInitialData = [
     alt: "UF-печать",
   },
 ]
+
+// Home Page Initial Data
 
 const homeOurSpecialityItemInitialData = [
   {
@@ -208,6 +225,8 @@ const homeOurAdvantageItemInitialData = [
   },
 ]
 
+// About Us Page Initial Data
+
 const aboutIntroText = "«NPD-упаковка» - крупная типография европейского уровня обслуживания и надежный партнер вашего бизнеса. Предоставляем каждому клиенту лучшие полиграфические решения, путем внедрения передовых технологий полиграфии и самых высоких стандартов качества. Мы типография полного производственного цикла. У нас лучшее специализированное программное обеспечение, современное высокотехнологичное оборудование. Наша типография является официальным партнером компаний КБА и Гейдельберг."
 
 const aboutDocsInitialData = [
@@ -326,6 +345,8 @@ const aboutPortfolioSwiperInitialData = [
     name: "Упаковка 6",
   },
 ];
+
+// Products Page Initial Data
 
 const productsItemsInitialData = [
   {
@@ -522,6 +543,8 @@ const productsItemsInitialData = [
   }
 ]
 
+// Services Page Initial Data
+
 const servicesItemsInitialData = [
   {
     id: "service-01",
@@ -630,6 +653,10 @@ const servicesItemsInitialData = [
   },
 ]
 
+// Contacts Page Initial Data
+
+const contactsIntroText = "Будем рады видеть Вас на нашем производстве. Офис и производство находятся в одном месте. Ближайшая к нам станция второго диаметра D2 - Львовская. Ждём Вас!"
+
 export {
   navBarStickyTopItemsInitialData,
   headerCarouselItemsInitialData,
@@ -649,4 +676,13 @@ export {
   productsItemsInitialData,
   skrepka,
   servicesItemsInitialData,
+  contactsIntroText,
+  run,
+  bus,
+  car,
+  contacts_address,
+  contacts_letter,
+  contacts_phone,
+  contacts_phone2,
+  contacts_time,
 };

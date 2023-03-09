@@ -695,6 +695,26 @@ code {
   color: #000;
 }
 
+.contacts .products-title {
+  font-size: calc(1.375rem + 1.5vw);
+}
+.contacts .font18 {
+  font-size: 18px;
+}
+.contacts .fcontact {
+  padding-left: 25px;
+  margin-bottom: 26px;
+}
+.contacts .fcontact a {
+  color: #000;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.accordion button img {
+  margin-right: 7px;
+}
+
 .footer {
   width: 100%;
   background-color: #263238;
