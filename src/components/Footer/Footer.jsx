@@ -18,7 +18,7 @@ function Footer() {
 
               <div className="col-lg-4 col-md-6 col-12 text-md-start text-center d-flex flex-column">
                 <h5 className="headin5_amrc col_white_amrc pt2">Наши контакты</h5>
-                <div className="row flex-column justify-content-between h-100">
+                <div className="row">
                   <div className="row">
                     <p className="mb10">
                       Адрес производства:
