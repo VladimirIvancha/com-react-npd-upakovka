@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/com-react-npd-upakovka/static/css/main.c2991e55.css",
-    "main.js": "/com-react-npd-upakovka/static/js/main.fa72e011.js",
+    "main.css": "/com-react-npd-upakovka/static/css/main.dedd8f99.css",
+    "main.js": "/com-react-npd-upakovka/static/js/main.64fd0d6e.js",
+    "static/media/scheme-02.PNG": "/com-react-npd-upakovka/static/media/scheme-02.26cd2bc57ead0ae38e30.PNG",
+    "static/media/scheme-03.PNG": "/com-react-npd-upakovka/static/media/scheme-03.c8703ca1ff09d6e94abd.PNG",
     "static/media/logo_black.jpg": "/com-react-npd-upakovka/static/media/logo_black.aa16aac3dfd7773eec1e.jpg",
     "static/media/alco_2-min.webp": "/com-react-npd-upakovka/static/media/alco_2-min.057403ee9af536006da3.webp",
     "static/media/Babaevskiy_packaging-min.webp": "/com-react-npd-upakovka/static/media/Babaevskiy_packaging-min.e18e99be185c8d1ae44d.webp",
@@ -16,14 +18,17 @@
     "static/media/plastik.webp": "/com-react-npd-upakovka/static/media/plastik.0ade2ad488797f3f4acf.webp",
     "index.html": "/com-react-npd-upakovka/index.html",
     "static/media/upak-1.webp": "/com-react-npd-upakovka/static/media/upak-1.919f3a3b3e6118338efd.webp",
+    "static/media/bus.webp": "/com-react-npd-upakovka/static/media/bus.0351214a6281f5bc9aae.webp",
+    "static/media/car.webp": "/com-react-npd-upakovka/static/media/car.fcc16ecd9c8ea3db752f.webp",
+    "static/media/run.webp": "/com-react-npd-upakovka/static/media/run.9401398109f41e513529.webp",
     "static/media/skrepka.webp": "/com-react-npd-upakovka/static/media/skrepka.0ec4131ed341ed8b7e27.webp",
     "static/media/blog-arrow-left.svg": "/com-react-npd-upakovka/static/media/blog-arrow-left.974461274a6f28c56019.svg",
     "static/media/blog-arrow-right.svg": "/com-react-npd-upakovka/static/media/blog-arrow-right.b53c2bc06e7d1321cc5d.svg",
-    "main.c2991e55.css.map": "/com-react-npd-upakovka/static/css/main.c2991e55.css.map",
-    "main.fa72e011.js.map": "/com-react-npd-upakovka/static/js/main.fa72e011.js.map"
+    "main.dedd8f99.css.map": "/com-react-npd-upakovka/static/css/main.dedd8f99.css.map",
+    "main.64fd0d6e.js.map": "/com-react-npd-upakovka/static/js/main.64fd0d6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2991e55.css",
-    "static/js/main.fa72e011.js"
+    "static/css/main.dedd8f99.css",
+    "static/js/main.64fd0d6e.js"
   ]
 }
