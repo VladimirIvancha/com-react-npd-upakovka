@@ -76,7 +76,7 @@ function ContactsBlock() {
       <div className="row">
         <div className="col text-center">
           <button type="button" className="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Схема Проезда
+            Схема проезда
           </button>
         </div>
       </div>
