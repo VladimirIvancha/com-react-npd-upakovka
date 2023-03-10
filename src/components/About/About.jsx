@@ -56,12 +56,12 @@ function About() {
             </div>
             <div className="container about-tabs full-size d-block my-5">
               <div className="row">
-                <div className="col-12 text-center mt-5">
+                <div className="col-12 text-center">
                   <div className="fs-2 fw-bold">Наше оборудование</div>
                 </div>
               </div>
               <div className="row">
-                <ul className="nav justify-content-center my-5">
+                <ul className="nav justify-content-center mt-3">
                   {aboutOurMachinesLinksInitialData.map((item) => (
                     <AboutOurMachinesLink key={item.id} item={item} />
                   ))}
@@ -91,11 +91,11 @@ function About() {
             </div>
             <div className="container about-portfolio my-5">
               <div className="row">
-                <div className="col-12 text-center mt-5">
+                <div className="col-12 text-center">
                   <div className="fs-2 fw-bold">Портфолио</div>
                 </div>
               </div>
-              <div className="row my-5">
+              <div className="row mt-3">
                 <AboutPortfolioSwiper />
               </div>
             </div>

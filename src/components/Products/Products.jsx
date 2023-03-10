@@ -40,7 +40,7 @@ function Products() {
 
       <FeedbackForm />
 
-      <div className="container about-portfolio mt-5">
+      <div className="container about-portfolio my-5">
         <div className="row">
           <div className="col-12 text-center">
             <div className="fs-2 fw-bold">Портфолио</div>
