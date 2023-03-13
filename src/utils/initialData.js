@@ -7,6 +7,8 @@ import photo3 from "../assets/images/DesignDepot_2_calendar.webp";
 import pic1 from '../assets/images/pos1-min.webp'
 import pic2 from '../assets/images/tea1-min.webp'
 import pic3 from '../assets/images/uf1-min.webp'
+import pic4 from '../assets/images/symbol-logo.png'
+import pic5 from '../assets/images/symbol-services.png'
 
 import homepic1 from '../assets/images/plastik.webp'
 import homepic2 from '../assets/images/uf-lak.webp'
@@ -67,7 +69,55 @@ const navBarStickyTopItemsInitialData = [
 
 const headerCarouselItemsInitialData = [
   {
-    id: "heder-carousel-item01",
+    id: "header-carousel-item01",
+    name: "/about",
+    mainClassCarousel: "carousel-item bg-warning header-carousel-item active",
+    spanClass1: "red",
+    spanClass2: "darks",
+    spanText1: "POS-",
+    spanText2: "материалы",
+    img: pic1,
+    alt: "POS-материалы",
+  },
+  {
+    id: "header-carousel-item02",
+    name: "/products",
+    mainClassCarousel: "carousel-item bg-success header-carousel-item",
+    spanClass1: "",
+    spanClass2: "green",
+    spanText1: "Печать",
+    spanText2: " упаковки",
+    img: pic2,
+    alt: "Печать упаковки",
+  },
+  {
+    id: "header-carousel-item03",
+    name: "/services",
+    mainClassCarousel: "carousel-item bg-danger header-carousel-item",
+    spanClass1: "yellow",
+    spanClass2: "",
+    spanText1: "UF-",
+    spanText2: "печать",
+    img: pic3,
+    alt: "UF-печать",
+  },
+  {
+    id: "header-carousel-item04",
+    name: "/contacts",
+    mainClassCarousel: "carousel-item bg-primary header-carousel-item",
+    spanClass1: "yellow",
+    spanClass2: "",
+    spanText1: "UF-",
+    spanText2: "печать",
+    img: pic3,
+    alt: "UF-печать",
+  },
+]
+
+const headerPageTopItemsInitialData = [
+  {
+    id: "header-item01",
+    name: "/about",
     mainClass: "carousel-item bg-warning header-carousel-item active",
     spanClass1: "red",
     spanClass2: "darks",
@@ -77,8 +127,9 @@ const headerCarouselItemsInitialData = [
     alt: "POS-материалы",
   },
   {
-    id: "heder-carousel-item02",
-    mainClass: "carousel-item bg-success header-carousel-item",
+    id: "header-item02",
+    name: "/products",
+    mainClass: "carousel-item bg-success header-carousel-item active",
     spanClass1: "",
     spanClass2: "green",
     spanText1: "Печать",
@@ -87,13 +138,25 @@ const headerCarouselItemsInitialData = [
     alt: "Печать упаковки",
   },
   {
-    id: "heder-carousel-item03",
-    mainClass: "carousel-item bg-danger header-carousel-item",
+    id: "header-item03",
+    name: "/services",
+    mainClass: "carousel-item bg-danger header-carousel-item active",
     spanClass1: "yellow",
     spanClass2: "",
     spanText1: "UF-",
     spanText2: "печать",
-    img: pic3,
+    img: pic5,
+    alt: "UF-печать",
+  },
+  {
+    id: "header-item04",
+    name: "/contacts",
+    mainClass: "carousel-item bg-primary header-carousel-item active",
+    spanClass1: "yellow",
+    spanClass2: "",
+    spanText1: "Наши ",
+    spanText2: "контакты",
+    img: pic4,
     alt: "UF-печать",
   },
 ]
@@ -662,6 +725,7 @@ const contactsIntroText = "Будем рады видеть Вас на наше
 export {
   navBarStickyTopItemsInitialData,
   headerCarouselItemsInitialData,
+  headerPageTopItemsInitialData,
   homeOurSpecialityItemInitialData,
   homeReadyItemInitialData,
   homeReasonItemInitialData,

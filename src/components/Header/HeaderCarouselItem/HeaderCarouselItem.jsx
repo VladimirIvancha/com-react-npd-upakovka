@@ -1,8 +1,8 @@
 import React from 'react'
 
-function HeaderCarouselItem({ item }) {
+function HeaderCarouselItem({ item, mainClass }) {
   return (
-    <div className={item.mainClass}>
+    <div className={mainClass}>
       <div className="container">
         <div className="row">
           <div className="col-sm-12 d-lg-none">

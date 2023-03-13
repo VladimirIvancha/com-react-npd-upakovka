@@ -119,7 +119,7 @@ function Home() {
                 type="submit"
                 id="zakzvfooter"
                 className="toggle"
-                onclick="ym(164402, 'reachGoal', 'ZVONOK'); return true;"
+                onClick="ym(164402, 'reachGoal', 'ZVONOK'); return true;"
                 value="Заказать звонок" />
             </form>
           </div>
