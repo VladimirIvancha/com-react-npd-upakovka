@@ -9,6 +9,8 @@ import pic2 from '../assets/images/tea1-min.webp'
 import pic3 from '../assets/images/uf1-min.webp'
 import pic4 from '../assets/images/symbol-logo.png'
 import pic5 from '../assets/images/symbol-services.png'
+import pic6 from '../assets/images/symbol-products.jpg'
+import pic7 from '../assets/images/symbol-about.png'
 
 import homepic1 from '../assets/images/plastik.webp'
 import homepic2 from '../assets/images/uf-lak.webp'
@@ -71,7 +73,7 @@ const headerCarouselItemsInitialData = [
   {
     id: "header-carousel-item01",
     name: "/about",
-    mainClassCarousel: "carousel-item bg-warning header-carousel-item active",
+    mainClassCarousel: "carousel-item bg-info header-carousel-item active",
     spanClass1: "red",
     spanClass2: "darks",
     spanText1: "POS-",
@@ -82,7 +84,7 @@ const headerCarouselItemsInitialData = [
   {
     id: "header-carousel-item02",
     name: "/products",
-    mainClassCarousel: "carousel-item bg-success header-carousel-item",
+    mainClassCarousel: "carousel-item bg-secondary header-carousel-item",
     spanClass1: "",
     spanClass2: "green",
     spanText1: "Печать",
@@ -121,9 +123,9 @@ const headerPageTopItemsInitialData = [
     mainClass: "carousel-item bg-warning header-carousel-item active",
     spanClass1: "red",
     spanClass2: "darks",
-    spanText1: "POS-",
-    spanText2: "материалы",
-    img: pic1,
+    spanText1: "О нашем ",
+    spanText2: "производстве",
+    img: pic7,
     alt: "POS-материалы",
   },
   {
@@ -132,9 +134,9 @@ const headerPageTopItemsInitialData = [
     mainClass: "carousel-item bg-success header-carousel-item active",
     spanClass1: "",
     spanClass2: "green",
-    spanText1: "Печать",
-    spanText2: " упаковки",
-    img: pic2,
+    spanText1: "Наша ",
+    spanText2: "продукция",
+    img: pic6,
     alt: "Печать упаковки",
   },
   {
@@ -143,8 +145,8 @@ const headerPageTopItemsInitialData = [
     mainClass: "carousel-item bg-danger header-carousel-item active",
     spanClass1: "yellow",
     spanClass2: "",
-    spanText1: "UF-",
-    spanText2: "печать",
+    spanText1: "Наши ",
+    spanText2: "услуги",
     img: pic5,
     alt: "UF-печать",
   },
