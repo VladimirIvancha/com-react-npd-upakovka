@@ -15,6 +15,7 @@ function ContactsSchemeModal() {
             Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
           </div>
           <div className="modal-footer">
+            <a className="btn btn-secondary" href="https://transport.mos.ru/common/upload/docs/map/s1.pdf" target="_blank">Скачать в PDF</a>
             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
           </div>
         </div>

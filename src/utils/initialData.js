@@ -155,7 +155,7 @@ const headerPageTopItemsInitialData = [
     name: "/contacts",
     mainClass: "carousel-item bg-primary header-carousel-item active",
     spanClass1: "yellow",
-    spanClass2: "",
+    spanClass2: "red",
     spanText1: "Наши ",
     spanText2: "контакты",
     img: pic4,
