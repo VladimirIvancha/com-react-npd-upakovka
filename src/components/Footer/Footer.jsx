@@ -70,15 +70,12 @@ function Footer() {
                   <p>
                     <a href="#">Image Cropping</a>
                   </p>
-                  <p>
-                    <a href="#">Image Cropping</a>
-                  </p>
                 </div>
               </div>
 
               <div className="col-lg-4 col-md-6 col-12 text-center text-md-end mt-md-5 mt-lg-0">
                 <h5 className="headin5_amrc col_white_amrc d-md-none d-lg-block pt2">Схема проезда</h5>
-                <button className="btn mt-lg-4" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button className="btn mt-lg-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                   <img className='col-12 rounded h-100' src={scheme02} alt='Схема проезда к офису и производству ООО "NPD-упаковка"' />
                 </button>
               </div>

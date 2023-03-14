@@ -111,7 +111,7 @@ const headerCarouselItemsInitialData = [
     spanClass2: "",
     spanText1: "UF-",
     spanText2: "печать",
-    img: pic3,
+    img: pic2,
     alt: "UF-печать",
   },
 ]
